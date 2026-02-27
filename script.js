@@ -34,8 +34,8 @@
     // Make sure these names match the variables in your EmailJS template
     // (e.g. {{from_name}}, {{from_email}}, {{company}}, {{message}}).
     const templateParams = {
-      from_name:  document.getElementById('name').value.trim(),
-      from_email: document.getElementById('email').value.trim(),
+      name:  document.getElementById('name').value.trim(),
+      email: document.getElementById('email').value.trim(),
       company:    document.getElementById('company').value.trim(),
       message:    document.getElementById('message').value.trim(),
     };
